@@ -1,7 +1,7 @@
-import { Panel, PanelHeader, PanelHeaderBack, Placeholder } from '@vkontakte/vkui';
+import { Panel, PanelHeader, PanelHeaderBack, Placeholder, Button } from '@vkontakte/vkui';
 import { useRouteNavigator } from '@vkontakte/vk-mini-apps-router';
 import PropTypes from 'prop-types';
-import PersikImage from '../assets/persik.png';
+import PersikImage from '../assets/persik1.png';
 
 export const Persik = ({ id }) => {
   const routeNavigator = useRouteNavigator();
@@ -13,6 +13,7 @@ export const Persik = ({ id }) => {
       </PanelHeader>
       <Placeholder>
         <img width={230} src={PersikImage} alt="Persik The Cat" />
+          <Button size="l" onClick={() => alert('Button clicked!')}>Click Me</Button>
       </Placeholder>
     </Panel>
   );
