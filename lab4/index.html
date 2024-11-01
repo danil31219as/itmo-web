@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="резюме, веб-разработка, HTML, CSS">
+  <meta name="description" content="Резюме веб-разработчика">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="scripts/load-stats.js"></script>
+  <title>Резюме Веб-разработчика</title>
+</head>
+<body class="font-sans bg-orange-100 text-gray-800 m-0 p-0">
+<header class="text-center bg-orange-400 p-5 shadow-md">
+  <section class="mb-4">
+    <img src="menu.png" alt="Фото" class="w-24 h-auto mx-auto">
+  </section>
+  <h1 class="text-2xl font-bold uppercase">Мое резюме</h1>
+  <nav class="mt-4">
+    <a href="index.html" class="text-gray-800 mx-2 no-underline hover:text-orange-600">Главная</a>
+    <a href="project-html.html" class="text-gray-800 mx-2 no-underline hover:text-orange-600">Проект сайт HTML</a>
+    <a href="project-html-css.html" class="text-gray-800 mx-2 no-underline hover:text-orange-600">Проект сайт HTML и CSS</a>
+  </nav>
+</header>
+<main class="flex flex-wrap justify-between p-5 mt-32">
+  <section class="flex-1 mr-5 bg-orange-300 p-4 shadow-md">
+    <h2 class="text-xl font-bold">Работа в ИТМО</h2>
+  </section>
+  <section class="flex-1 mr-5 bg-orange-300 p-4 shadow-md">
+    <h2 class="text-xl font-bold">Работа в Гугле</h2>
+  </section>
+  <section class="flex-1 bg-orange-300 p-4 shadow-md">
+    <article>
+      <h2 class="text-xl font-bold">Опыт</h2>
+      <p>Разработчик с опытом 3+ лет</p>
+    </article>
+    <article>
+      <h3 class="text-lg font-semibold">Образование</h3>
+      <p>ИТМО ИС 2022-2026</p>
+    </article>
+    <h4 class="text-md font-semibold">Навыки</h4>
+    <ul class="list-disc pl-5">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ul>
+  </section>
+  <aside class="w-52 bg-orange-200 p-4 shadow-md hidden md:block">
+    <section>Скриншот лучшего проекта</section>
+  </aside>
+  <div class="w-full bg-orange-200 p-4 mb-5 shadow-md mt-10">
+    <h2 class="text-xl font-bold mb-2">Обо мне</h2>
+    <p>Я веб-разработчик с более чем 3-летним опытом работы в создании динамичных и отзывчивых веб-сайтов. Моя цель — создавать удобные и эффективные решения для пользователей.</p>
+  </div>
+  <div class="w-full bg-orange-200 p-4 mb-5 shadow-md">
+    <h2 class="text-xl font-bold mb-2">Недавние проекты</h2>
+    <ul class="list-disc pl-5">
+      <li>Проект 1: Веб-приложение для управления задачами</li>
+      <li>Проект 2: Электронная коммерция на React</li>
+      <li>Проект 3: Платформа для онлайн-обучения</li>
+    </ul>
+  </div>
+</main>
+
+<footer class="text-center bg-orange-500 p-5 shadow-md mt-5">
+  <pre class="bg-orange-300 p-4 rounded text-lowercase overflow-x-auto inline-block">
++-----------------+
+| Напиши мне     |
++-----------------+
+  </pre>
+  <section>
+    <h4 class="text-md font-semibold">Контакты</h4>
+    <ul class="list-none p-0">
+      <li>Телефон: 8-800-555-35-35</li>
+      <li>Почта: lol@lol.com</li>
+    </ul>
+  </section>
+  <blockquote class="italic mt-4">
+    "Успех<sup>2</sup> = Упорство<sup>2</sup> + Труд<sup>2</sup>"
+  </blockquote>
+  <code class="block mt-4">&lt;div&gt;Расскажу что это&lt;/div&gt;</code>
+  <p id="load-time" class="mt-4"></p>
+</footer>
+</body>
+</html>
