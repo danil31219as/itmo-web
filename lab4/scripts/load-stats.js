@@ -1,7 +1,5 @@
 (function() {
     document.addEventListener('DOMContentLoaded', function() {
-        const startTime = performance.timing.navigationStart;
-        const endTime = performance.timing.loadEventEnd;
         let timing = performance.getEntriesByType('navigation')[0];
         const loadTime = timing.responseStart - timing.requestStart;
 
